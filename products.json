@@ -1,0 +1,3051 @@
+[
+  {
+    "id": "macbook-air-m2-8gb",
+    "name": "Apple MacBook Air 13\" (M2, 8GB/256GB)",
+    "brand": "Apple",
+    "price": 899,
+    "category": "ultralight_productivity",
+    "cpu": "Apple M2 (8-core CPU)",
+    "gpu": "Apple M2 (8-core GPU)",
+    "gpu_tgp_w": 15,
+    "ram_gb": 8,
+    "ram_type": "Unified Memory",
+    "ram_soldered": true,
+    "storage_gb": 256,
+    "display": {
+      "size_inches": 13.6,
+      "resolution": "2560x1664",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 500,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "Liquid Retina IPS"
+    },
+    "battery": {
+      "capacity_wh": 52.6,
+      "real_world_hours": 15.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive Fanless",
+      "throttle_risk": "High (under sustained 100% CPU/GPU loads > 8 mins)",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 1.24,
+    "ports": [
+      "2x Thunderbolt 3 / USB 4",
+      "MagSafe 3",
+      "3.5mm Headphone Jack"
+    ],
+    "strengths": [
+      "Dead silent fanless operation",
+      "Exceptional 15+ hour battery life",
+      "Vibrant 500-nit 100% DCI-P3 display",
+      "Featherweight 1.24kg magnesium unibody"
+    ],
+    "pitfalls": [
+      "8GB Unified RAM causes heavy SSD paging/swap under multi-layer 4K editing or docker containers",
+      "No discrete GPU for CUDA/3D rendering or modern PC gaming",
+      "No active fan means thermal throttling down to 65% clock speed during sustained render passes",
+      "Only supports 1 external display natively without DisplayLink hubs"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "macbook-pro-14-m3-pro",
+    "name": "Apple MacBook Pro 14\" (M3 Pro, 18GB/512GB)",
+    "brand": "Apple",
+    "price": 1999,
+    "category": "creator_workstation",
+    "cpu": "Apple M3 Pro (11-core CPU)",
+    "gpu": "Apple M3 Pro (14-core GPU with Hardware Raytracing)",
+    "gpu_tgp_w": 30,
+    "ram_gb": 18,
+    "ram_type": "Unified Memory (150GB/s bandwidth)",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 14.2,
+      "resolution": "3024x1964",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 1000,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "Liquid Retina XDR Mini-LED"
+    },
+    "battery": {
+      "capacity_wh": 70.0,
+      "real_world_hours": 14.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual Active Fans with Copper Heatpipe",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 34
+    },
+    "weight_kg": 1.61,
+    "ports": [
+      "3x Thunderbolt 4",
+      "HDMI 2.1",
+      "SDXC Card Slot",
+      "MagSafe 3",
+      "3.5mm Headphone Jack"
+    ],
+    "strengths": [
+      "Industry-leading 1000-nit XDR Mini-LED with 120Hz ProMotion",
+      "Full performance on battery power without wattage drop",
+      "Full-sized SDXC card slot and HDMI 2.1 built-in",
+      "Hardware ProRes and AV1 hardware decoders"
+    ],
+    "pitfalls": [
+      "Premium price tag ($1999)",
+      "Zero RAM or SSD upgradeability after purchase",
+      "No DirectX 12/Vulkan gaming ecosystem compared to Windows laptops",
+      "Cannot run native NVIDIA CUDA workloads without Metal translation"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "asus-rog-zephyrus-g14-2024",
+    "name": "ASUS ROG Zephyrus G14 (OLED, Ryzen 9, RTX 4060 8GB)",
+    "brand": "ASUS",
+    "price": 1599,
+    "category": "creator_workstation",
+    "cpu": "AMD Ryzen 9 8945HS (8-core / 16-thread)",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6, 90W TGP)",
+    "gpu_tgp_w": 90,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5X-6400",
+    "ram_soldered": true,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 14.0,
+      "resolution": "2880x1800",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 500,
+      "color_gamut": "100% DCI-P3 (Delta E < 1)",
+      "panel_type": "ROG Nebula OLED with G-Sync"
+    },
+    "battery": {
+      "capacity_wh": 73.0,
+      "real_world_hours": 8.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Tri-Fan Vapor Chamber Cooling with Liquid Metal",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 42
+    },
+    "weight_kg": 1.5,
+    "ports": [
+      "1x USB4 (40Gbps)",
+      "1x USB-C 3.2 Gen 2",
+      "2x USB-A 3.2 Gen 2",
+      "HDMI 2.1 FRL",
+      "MicroSD Card Reader"
+    ],
+    "strengths": [
+      "Factory-calibrated 2.8K 120Hz OLED with 100% DCI-P3",
+      "Discrete RTX 4060 with full CUDA acceleration for Premiere/Blender",
+      "Remarkable 8.5h battery on light productivity despite dedicated GPU",
+      "Slim CNC aluminum chassis weighing only 1.5kg"
+    ],
+    "pitfalls": [
+      "RAM is soldered LPDDR5X (cannot be upgraded beyond 16GB on this SKU)",
+      "Uses MicroSD instead of full-size SD card slot",
+      "Chassis bottom gets warm (46\u00b0C) during prolonged 90W GPU gaming"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "lenovo-legion-pro-5-gen9",
+    "name": "Lenovo Legion Pro 5 Gen 9 (Ryzen 7 7745HX, RTX 4070 8GB)",
+    "brand": "Lenovo",
+    "price": 1429,
+    "category": "gaming_performance",
+    "cpu": "AMD Ryzen 7 7745HX (8-core / 16-thread)",
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop (8GB GDDR6, 140W Max TGP)",
+    "gpu_tgp_w": 140,
+    "ram_gb": 32,
+    "ram_type": "DDR5-5200 (Dual Channel SO-DIMM)",
+    "ram_soldered": false,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 16.0,
+      "resolution": "2560x1600",
+      "refresh_rate_hz": 240,
+      "brightness_nits": 500,
+      "color_gamut": "100% sRGB",
+      "panel_type": "IPS Anti-glare with G-Sync"
+    },
+    "battery": {
+      "capacity_wh": 80.0,
+      "real_world_hours": 3.8,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Legion Coldfront 5.0 Dual Fan Massive Heatpipe",
+      "throttle_risk": "Very Low",
+      "noise_under_load_db": 49
+    },
+    "weight_kg": 2.5,
+    "ports": [
+      "2x USB-C 3.2 Gen 2 (140W PD)",
+      "4x USB-A 3.2 Gen 1",
+      "HDMI 2.1",
+      "RJ-45 Gigabit Ethernet",
+      "3.5mm Audio"
+    ],
+    "strengths": [
+      "True 140W full-power RTX 4070 destroys AAA games and CAD simulations",
+      "Dual upgradeable SO-DIMM RAM slots (expandable up to 64GB)",
+      "Dual M.2 Gen4 NVMe slots for massive storage expansion",
+      "Blazing 240Hz 500-nit 16:10 display with zero ghosting"
+    ],
+    "pitfalls": [
+      "Heavy weight: 2.5kg laptop + 0.9kg power brick (3.4kg total travel weight)",
+      "Poor battery life: 3.5 to 4 hours maximum away from wall outlet",
+      "Fan noise reaches 49dB in performance mode",
+      "Display covers 100% sRGB but only ~73% DCI-P3 (suboptimal for HDR color grading)"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "lenovo-thinkpad-x1-carbon-gen12",
+    "name": "Lenovo ThinkPad X1 Carbon Gen 12 (Core Ultra 7 155H, 32GB)",
+    "brand": "Lenovo",
+    "price": 1849,
+    "category": "ultralight_productivity",
+    "cpu": "Intel Core Ultra 7 155H (16-core / 22-thread with Intel AI Boost NPU)",
+    "gpu": "Intel Arc Graphics (8 Xe-cores)",
+    "gpu_tgp_w": 28,
+    "ram_gb": 32,
+    "ram_type": "LPDDR5X-7500",
+    "ram_soldered": true,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 14.0,
+      "resolution": "2880x1800",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 400,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "OLED Anti-Reflection"
+    },
+    "battery": {
+      "capacity_wh": 57.0,
+      "real_world_hours": 10.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual Owl-Wing Fans with Rear Exhaust",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 36
+    },
+    "weight_kg": 1.09,
+    "ports": [
+      "2x Thunderbolt 4",
+      "2x USB-A 3.2 Gen 1",
+      "HDMI 2.1",
+      "Nano SIM (optional 5G)",
+      "3.5mm Audio"
+    ],
+    "strengths": [
+      "Ultra-featherweight 1.09kg aerospace carbon fiber chassis",
+      "Legendary ThinkPad spill-resistant keyboard with TrackPoint",
+      "MIL-STD-810H military durability certification",
+      "Generous 32GB high-speed memory for heavy enterprise multitasking"
+    ],
+    "pitfalls": [
+      "Integrated Intel Arc graphics cannot run heavy AAA gaming or complex 3D raytracing",
+      "Soldered RAM cannot be upgraded post-purchase",
+      "OLED panel increases battery consumption at maximum brightness compared to IPS variant"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "acer-swift-go-14-oled",
+    "name": "Acer Swift Go 14 (Core Ultra 5 125H, 16GB, 2.8K OLED)",
+    "brand": "Acer",
+    "price": 799,
+    "category": "cs_student_developer",
+    "cpu": "Intel Core Ultra 5 125H (14-core / 18-thread)",
+    "gpu": "Intel Arc Graphics (7 Xe-cores)",
+    "gpu_tgp_w": 28,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5X-6400",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 14.0,
+      "resolution": "2880x1800",
+      "refresh_rate_hz": 90,
+      "brightness_nits": 500,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "OLED True Black 500"
+    },
+    "battery": {
+      "capacity_wh": 65.0,
+      "real_world_hours": 9.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "TwinAir Dual Copper Heatpipes",
+      "throttle_risk": "Moderate",
+      "noise_under_load_db": 38
+    },
+    "weight_kg": 1.32,
+    "ports": [
+      "2x Thunderbolt 4",
+      "2x USB-A 3.2 Gen 1",
+      "HDMI 2.1",
+      "MicroSD slot",
+      "3.5mm Audio"
+    ],
+    "strengths": [
+      "Sublime 2.8K OLED screen at an unbeatable $799 price point",
+      "Dual Thunderbolt 4 ports allow dual external 4K monitors",
+      "Strong multi-threaded compiling performance with 14-core CPU",
+      "Solid 9-hour battery with compact 100W USB-C GaN charger"
+    ],
+    "pitfalls": [
+      "Integrated GPU struggles with high-end Unreal Engine game dev or modern 3D games",
+      "Soldered 16GB RAM limit (not expandable for local 13B+ parameter LLM loading)",
+      "Touchpad is plastic rather than glass"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "framework-laptop-16",
+    "name": "Framework Laptop 16 (Ryzen 7 7840HS, Modular Graphics)",
+    "brand": "Framework",
+    "price": 1799,
+    "category": "cs_student_developer",
+    "cpu": "AMD Ryzen 7 7840HS (8-core / 16-thread)",
+    "gpu": "AMD Radeon RX 7700S (8GB GDDR6, Expansion Bay Module)",
+    "gpu_tgp_w": 100,
+    "ram_gb": 32,
+    "ram_type": "DDR5-5600 (Dual SO-DIMM)",
+    "ram_soldered": false,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 16.0,
+      "resolution": "2560x1600",
+      "refresh_rate_hz": 165,
+      "brightness_nits": 500,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "Matte IPS"
+    },
+    "battery": {
+      "capacity_wh": 85.0,
+      "real_world_hours": 7.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual Intercooler Modular Thermal Assembly",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 44
+    },
+    "weight_kg": 2.4,
+    "ports": [
+      "6x Modular Expansion Card Slots (Thunderbolt/USB-C/HDMI/DP/SD/Ethernet)"
+    ],
+    "strengths": [
+      "100% modular, repairable, and upgradeable (CPU, GPU, RAM, ports can be swapped)",
+      "Dual upgradeable SO-DIMM slots up to 64GB RAM",
+      "Includes full-size high refresh 165Hz 100% DCI-P3 panel",
+      "Detachable GPU expansion bay allows converting between thin office mode and gaming mode"
+    ],
+    "pitfalls": [
+      "Higher entry price compared to mass-market fixed gaming laptops",
+      "Larger form factor and 2.4kg weight with GPU module attached",
+      "AMD Radeon GPU lacks CUDA ecosystem support required by some AI deep learning libraries"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "dell-xps-14-9440",
+    "name": "Dell XPS 14 (Core Ultra 7, RTX 4050 6GB)",
+    "brand": "Dell",
+    "price": 1899,
+    "category": "creator_workstation",
+    "cpu": "Intel Core Ultra 7 155H (16-core)",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop (6GB GDDR6, 30W TGP)",
+    "gpu_tgp_w": 30,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5X-7467",
+    "ram_soldered": true,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 14.5,
+      "resolution": "3200x2000",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 400,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "3.2K OLED Touch"
+    },
+    "battery": {
+      "capacity_wh": 69.5,
+      "real_world_hours": 8.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual Fans with Hidden Vapor Chamber",
+      "throttle_risk": "Moderate",
+      "noise_under_load_db": 41
+    },
+    "weight_kg": 1.74,
+    "ports": [
+      "3x Thunderbolt 4",
+      "MicroSD Card Reader",
+      "3.5mm Headphone Jack"
+    ],
+    "strengths": [
+      "Futuristic seamless glass haptic touchpad and capacitive touch function row",
+      "Gorgeous 3.2K 120Hz OLED touch panel with 100% DCI-P3",
+      "Premium CNC machined aluminum chassis"
+    ],
+    "pitfalls": [
+      "Severely power-constrained RTX 4050 capped at only 30W TGP (limits render and gaming speeds)",
+      "Zero USB Type-A or standard HDMI ports (dongles mandatory)",
+      "Capacitive touch function keys lack physical tactile feedback",
+      "Soldered RAM cannot be upgraded"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "asus-tuf-gaming-a15",
+    "name": "ASUS TUF Gaming A15 (Ryzen 7 7735HS, RTX 4060 8GB)",
+    "brand": "ASUS",
+    "price": 999,
+    "category": "gaming_performance",
+    "cpu": "AMD Ryzen 7 7735HS (8-core / 16-thread)",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop (8GB GDDR6, 140W Max TGP)",
+    "gpu_tgp_w": 140,
+    "ram_gb": 16,
+    "ram_type": "DDR5-4800 (Dual SO-DIMM)",
+    "ram_soldered": false,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 144,
+      "brightness_nits": 250,
+      "color_gamut": "100% sRGB",
+      "panel_type": "IPS Anti-glare"
+    },
+    "battery": {
+      "capacity_wh": 90.0,
+      "real_world_hours": 7.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Arc Flow Fans with 5 Copper Heatpipes",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 47
+    },
+    "weight_kg": 2.2,
+    "ports": [
+      "1x USB-C 4.0",
+      "1x USB-C 3.2 Gen 2",
+      "2x USB-A 3.2 Gen 1",
+      "HDMI 2.1",
+      "RJ-45 LAN"
+    ],
+    "strengths": [
+      "Unmatched price-to-performance: Full 140W RTX 4060 under $1000",
+      "Huge 90Wh battery delivers surprising 7.5 hours on light office tasks",
+      "Both RAM slots and second M.2 NVMe slot are completely user-upgradeable",
+      "MIL-STD-810H drop and vibration tested"
+    ],
+    "pitfalls": [
+      "Display brightness is only 250 nits (dim in sunny outdoor or cafe environments)",
+      "Chassis has gamery accents and industrial plastic keyboard deck",
+      "Weighs 2.2kg with a chunky 240W AC power brick"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "hp-pavilion-15-budget",
+    "name": "HP Pavilion 15 (Core i5-1335U, 8GB, Iris Xe)",
+    "brand": "HP",
+    "price": 499,
+    "category": "budget_allrounder",
+    "cpu": "Intel Core i5-1335U (10-core / 12-thread)",
+    "gpu": "Intel Iris Xe Graphics (Integrated)",
+    "gpu_tgp_w": 15,
+    "ram_gb": 8,
+    "ram_type": "DDR4-3200",
+    "ram_soldered": false,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 250,
+      "color_gamut": "45% NTSC (~62% sRGB)",
+      "panel_type": "Basic IPS"
+    },
+    "battery": {
+      "capacity_wh": 41.0,
+      "real_world_hours": 5.0,
+      "usb_c_charging": false
+    },
+    "thermals": {
+      "cooling_type": "Single Fan Single Heatpipe",
+      "throttle_risk": "Moderate",
+      "noise_under_load_db": 39
+    },
+    "weight_kg": 1.75,
+    "ports": [
+      "1x USB-C 3.2",
+      "2x USB-A 3.2",
+      "HDMI 1.4b",
+      "Barrel Pin Charger",
+      "3.5mm Audio"
+    ],
+    "strengths": [
+      "Very affordable $499 price point",
+      "Decent 10-core CPU for basic web browsing and spreadsheets",
+      "One upgradeable RAM slot"
+    ],
+    "pitfalls": [
+      "45% NTSC washed-out screen (completely inadequate for graphic design or video editing)",
+      "Small 41Wh battery runs down in 4.5-5 hours",
+      "No discrete GPU; cannot run modern games or CUDA pipelines",
+      "Barrel connector charging; doesn't support universal USB-C Power Delivery charging"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "lenovo-ideapad-slim-5-amd",
+    "name": "Lenovo IdeaPad Slim 5 16\" (Ryzen 7 8845HS, 16GB, 2.5K)",
+    "brand": "Lenovo",
+    "price": 749,
+    "category": "cs_student_developer",
+    "cpu": "AMD Ryzen 7 8845HS (8-core / 16-thread with Ryzen AI NPU)",
+    "gpu": "AMD Radeon 780M (Integrated Graphics)",
+    "gpu_tgp_w": 35,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5X-6400",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 16.0,
+      "resolution": "2560x1600",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 350,
+      "color_gamut": "100% sRGB",
+      "panel_type": "IPS Anti-glare 16:10"
+    },
+    "battery": {
+      "capacity_wh": 76.0,
+      "real_world_hours": 10.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual Fan System",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 36
+    },
+    "weight_kg": 1.82,
+    "ports": [
+      "2x USB-C 3.2 Gen 1 (PD + DP)",
+      "2x USB-A 3.2 Gen 1",
+      "HDMI 1.4b",
+      "MicroSD Card Reader"
+    ],
+    "strengths": [
+      "High-power 8-core Ryzen 7 8845HS offers stellar code compilation speeds",
+      "Spacious 16-inch 2.5K 120Hz 16:10 display with 100% sRGB",
+      "Generous 76Wh battery lasts up to 10 hours of coding/lectures",
+      "Radeon 780M handles esports games (Valorant, CS2, League) at 1080p smoothly"
+    ],
+    "pitfalls": [
+      "Soldered 16GB RAM cannot be expanded to 32GB",
+      "HDMI port is older 1.4b (limited to 4K 30Hz or 1080p 60Hz over HDMI)",
+      "Integrated graphics cannot handle heavy CUDA/PyTorch workloads"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "razer-blade-16-dual-mode",
+    "name": "Razer Blade 16 (i9-14900HX, RTX 4080 12GB, Dual-Mode Mini-LED)",
+    "brand": "Razer",
+    "price": 3199,
+    "category": "creator_workstation",
+    "cpu": "Intel Core i9-14900HX (24-core / 32-thread)",
+    "gpu": "NVIDIA GeForce RTX 4080 Laptop (12GB GDDR6, 175W Max TGP)",
+    "gpu_tgp_w": 175,
+    "ram_gb": 32,
+    "ram_type": "DDR5-5600 (Dual SO-DIMM)",
+    "ram_soldered": false,
+    "storage_gb": 2048,
+    "display": {
+      "size_inches": 16.0,
+      "resolution": "Dual Mode (4K 120Hz / FHD 240Hz)",
+      "refresh_rate_hz": 240,
+      "brightness_nits": 1000,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "Mini-LED Dual Mode Display"
+    },
+    "battery": {
+      "capacity_wh": 95.2,
+      "real_world_hours": 4.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Patented Full-Coverage Vacuum-Sealed Vapor Chamber",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 46
+    },
+    "weight_kg": 2.45,
+    "ports": [
+      "1x Thunderbolt 4",
+      "1x USB-C 3.2 Gen 2",
+      "3x USB-A 3.2 Gen 2",
+      "HDMI 2.1",
+      "UHS-II SD Card Reader"
+    ],
+    "strengths": [
+      "Industry-first Dual-Mode Mini-LED (switch between 4K 120Hz creator mode and 1080p 240Hz esports)",
+      "Immense 175W RTX 4080 with 12GB VRAM tears through 8K RED RAW and 3D rendering",
+      "Unibody CNC anodized aluminum build quality akin to a black MacBook",
+      "Both RAM slots upgradeable to 96GB DDR5"
+    ],
+    "pitfalls": [
+      "Extreme price tag ($3199)",
+      "Core i9 + RTX 4080 drain the 95Wh battery in ~4.5 hours on casual tasks",
+      "Surface temperature gets hot under sustained 175W load"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "asus-zenbook-14-oled-ux3405",
+    "name": "ASUS Zenbook 14 OLED (Core Ultra 7 155H, 16GB, 1TB)",
+    "brand": "ASUS",
+    "price": 1049,
+    "category": "ultralight_productivity",
+    "cpu": "Intel Core Ultra 7 155H (16-core with Intel AI Boost)",
+    "gpu": "Intel Arc Graphics",
+    "gpu_tgp_w": 28,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5X-7467",
+    "ram_soldered": true,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 14.0,
+      "resolution": "2880x1800",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 600,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "Lumina OLED HDR 600"
+    },
+    "battery": {
+      "capacity_wh": 75.0,
+      "real_world_hours": 12.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual Heatpipe Fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 35
+    },
+    "weight_kg": 1.28,
+    "ports": [
+      "2x Thunderbolt 4",
+      "1x USB-A 3.2 Gen 1",
+      "HDMI 2.1 TMDS",
+      "3.5mm Audio"
+    ],
+    "strengths": [
+      "Sensational 120Hz 3K OLED HDR screen at $1049",
+      "Incredible 75Wh battery delivering 12 real-world hours",
+      "Slim 1.28kg all-metal military-grade durability",
+      "Smooth virtual LED number pad built into glass touchpad"
+    ],
+    "pitfalls": [
+      "Integrated Arc GPU cannot replace a dedicated RTX for 3D modeling or modern games",
+      "Soldered 16GB RAM limit",
+      "Glossy OLED screen has reflections in direct sunlight"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "acer-nitro-v-15",
+    "name": "Acer Nitro V 15 (Core i5-13420H, RTX 4050 6GB)",
+    "brand": "Acer",
+    "price": 699,
+    "category": "gaming_performance",
+    "cpu": "Intel Core i5-13420H (8-core / 12-thread)",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop (6GB GDDR6, 75W TGP)",
+    "gpu_tgp_w": 75,
+    "ram_gb": 8,
+    "ram_type": "DDR5-5200 (Dual SO-DIMM)",
+    "ram_soldered": false,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 144,
+      "brightness_nits": 250,
+      "color_gamut": "45% NTSC (~62% sRGB)",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 57.0,
+      "real_world_hours": 4.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual Fan Dual Exhaust",
+      "throttle_risk": "Moderate",
+      "noise_under_load_db": 48
+    },
+    "weight_kg": 2.1,
+    "ports": [
+      "1x Thunderbolt 4",
+      "3x USB-A 3.2 Gen 1",
+      "HDMI 2.1",
+      "RJ-45 Ethernet"
+    ],
+    "strengths": [
+      "Most affordable RTX 40-series laptop ($699)",
+      "Supports DLSS 3 Frame Generation in modern games",
+      "Upgradable dual RAM slots and secondary M.2 SSD slot"
+    ],
+    "pitfalls": [
+      "Ships with only 8GB single-channel RAM (must upgrade immediately to prevent stutter)",
+      "Poor color accuracy (45% NTSC) is terrible for creative editing",
+      "Sub-par 4-hour battery life",
+      "Aggressive fan noise under load"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "surface-pro-11-snapdragon",
+    "name": "Microsoft Surface Pro 11th Edition (Snapdragon X Elite, 16GB)",
+    "brand": "Microsoft",
+    "price": 1399,
+    "category": "ultralight_productivity",
+    "cpu": "Qualcomm Snapdragon X Elite (12-core ARM64, 45 TOPS NPU)",
+    "gpu": "Qualcomm Adreno GPU (Integrated)",
+    "gpu_tgp_w": 20,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5X-8448",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 13.0,
+      "resolution": "2880x1920 (3:2)",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 600,
+      "color_gamut": "100% sRGB / 98% DCI-P3",
+      "panel_type": "OLED PixelSense Flow Touch"
+    },
+    "battery": {
+      "capacity_wh": 53.0,
+      "real_world_hours": 13.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Ultra-thin Vapor Chamber with Silent Fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 30
+    },
+    "weight_kg": 0.89,
+    "ports": [
+      "2x USB4 / Thunderbolt-compatible USB-C",
+      "Surface Connect port"
+    ],
+    "strengths": [
+      "Ultra-portable 890g 2-in-1 tablet + detachable keyboard form factor",
+      "ARM64 efficiency delivers cool, quiet 13.5 hours battery life",
+      "Stunning 120Hz OLED with tactile Surface Slim Pen 2 support",
+      "Powerful 45 TOPS NPU for local Copilot+ PC features"
+    ],
+    "pitfalls": [
+      "Windows on ARM emulation compatibility issues with certain legacy x86 kernel drivers, audio plugins, or anti-cheat games",
+      "Keyboard cover and pen are sold separately (adds ~$280 to price)",
+      "No discrete GPU for CUDA or high-end 3D rendering",
+      "Only 2 ports total"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "iphone-16-pro",
+    "device_type": "smartphone",
+    "name": "Apple iPhone 16 Pro (128GB)",
+    "brand": "Apple",
+    "price": 999,
+    "category": "smartphone_flagship",
+    "cpu": "Apple A18 Pro (6-core CPU + 16-core Neural Engine)",
+    "gpu": "Apple 6-core GPU with Hardware Raytracing",
+    "gpu_tgp_w": 10,
+    "ram_gb": 8,
+    "ram_type": "Unified LPDDR5X",
+    "ram_soldered": true,
+    "storage_gb": 128,
+    "display": {
+      "size_inches": 6.3,
+      "resolution": "2622x1206",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 2000,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "Super Retina XDR OLED ProMotion"
+    },
+    "battery": {
+      "capacity_wh": 14.5,
+      "real_world_hours": 12.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Graphene thermal sheet with 100% recycled aluminum substructure",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.199,
+    "ports": [
+      "USB-C (10Gbps USB 3)",
+      "Camera Control capacitive key"
+    ],
+    "strengths": [
+      "Grade 5 Titanium chassis with thinnest bezels on any iPhone",
+      "48MP Fusion camera with 4K120 fps Dolby Vision HDR recording",
+      "Apple Intelligence support with A18 Pro silicon",
+      "Class-leading 120Hz ProMotion display reaching 2000 nits peak"
+    ],
+    "pitfalls": [
+      "Base model still starts at 128GB storage for a $999 pro phone",
+      "27W wired charging is slower than Android competitors offering 80W-100W",
+      "No dedicated telephoto periscope beyond 5x optical zoom"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800&q=80"
+  },
+  {
+    "id": "samsung-galaxy-s24-ultra",
+    "device_type": "smartphone",
+    "name": "Samsung Galaxy S24 Ultra (256GB)",
+    "brand": "Samsung",
+    "price": 1299,
+    "category": "smartphone_flagship",
+    "cpu": "Snapdragon 8 Gen 3 for Galaxy (8-core)",
+    "gpu": "Adreno 750",
+    "gpu_tgp_w": 12,
+    "ram_gb": 12,
+    "ram_type": "LPDDR5X",
+    "ram_soldered": true,
+    "storage_gb": 256,
+    "display": {
+      "size_inches": 6.8,
+      "resolution": "3120x1440 (QHD+)",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 2600,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "Dynamic AMOLED 2X Anti-Reflective Gorilla Armor"
+    },
+    "battery": {
+      "capacity_wh": 19.2,
+      "real_world_hours": 14.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "1.9x Larger Vapor Chamber",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.232,
+    "ports": [
+      "USB-C 3.2 Gen 1 (DisplayPort Out)",
+      "Integrated S-Pen Stylus"
+    ],
+    "strengths": [
+      "Revolutionary Corning Gorilla Armor glass eliminates 75% of screen reflections",
+      "Incredible 200MP camera + 50MP 5x periscope with 100x Space Zoom",
+      "Built-in S-Pen stylus for precision handwriting and remote shutter",
+      "Guaranteed 7 years of Android OS and security updates"
+    ],
+    "pitfalls": [
+      "Heavy 232g boxy titanium body with sharp corners that can dig into palms",
+      "Premium $1299 entry price",
+      "Shutter lag on rapid indoor motion shots of pets and kids"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800&q=80"
+  },
+  {
+    "id": "google-pixel-9-pro",
+    "device_type": "smartphone",
+    "name": "Google Pixel 9 Pro (128GB)",
+    "brand": "Google",
+    "price": 999,
+    "category": "smartphone_flagship",
+    "cpu": "Google Tensor G4 with Titan M2 security coprocessor",
+    "gpu": "Mali-G715",
+    "gpu_tgp_w": 10,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5X",
+    "ram_soldered": true,
+    "storage_gb": 128,
+    "display": {
+      "size_inches": 6.3,
+      "resolution": "2856x1280",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 3000,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "Super Actua LTPO OLED (1-120Hz)"
+    },
+    "battery": {
+      "capacity_wh": 18.1,
+      "real_world_hours": 11.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dedicated Vapor Chamber (First on Pixel)",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.199,
+    "ports": [
+      "USB-C 3.2"
+    ],
+    "strengths": [
+      "Industry-leading computational photography with zero shutter lag",
+      "Huge 16GB RAM dedicated to on-device Gemini Nano multimodal AI",
+      "Super Actua display blazes at an extraordinary 3000 nits peak outdoor brightness",
+      "7 full years of Android OS and Feature Drop updates"
+    ],
+    "pitfalls": [
+      "Tensor G4 raw 3D gaming benchmark scores lag behind Snapdragon 8 Gen 3",
+      "Starts at 128GB storage for $999",
+      "Charging speed capped at 27W"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80"
+  },
+  {
+    "id": "oneplus-12",
+    "device_type": "smartphone",
+    "name": "OnePlus 12 (16GB/512GB)",
+    "brand": "OnePlus",
+    "price": 799,
+    "category": "smartphone_flagship",
+    "cpu": "Snapdragon 8 Gen 3 (8-core)",
+    "gpu": "Adreno 750",
+    "gpu_tgp_w": 12,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5X",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 6.82,
+      "resolution": "3168x1440 (2K ProXDR)",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 4500,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "BOE X1 LTPO OLED 120Hz"
+    },
+    "battery": {
+      "capacity_wh": 20.8,
+      "real_world_hours": 15.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual Cryo-velocity VC (9,140mm\u00b2 area)",
+      "throttle_risk": "Very Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.22,
+    "ports": [
+      "USB-C 3.2 Gen 1",
+      "IR Blaster",
+      "Physical Alert Slider"
+    ],
+    "strengths": [
+      "Unmatched value: 16GB RAM + 512GB storage with Snapdragon 8 Gen 3 for only $799",
+      "Blazing 80W wired charging (full 0-100% in 30 mins) + 50W wireless",
+      "Massive 5400mAh battery lasts 1.5 to 2 days of normal use",
+      "Display reaches blinding 4500 nits peak brightness"
+    ],
+    "pitfalls": [
+      "Curved edge screen (some users prefer flat displays for screen protectors)",
+      "Only IP65 water resistance (survives rain/splashes, but not prolonged submersion like IP68)",
+      "OxygenOS AI features are more limited than Samsung Galaxy AI or Google Pixel"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80"
+  },
+  {
+    "id": "nothing-phone-2a",
+    "device_type": "smartphone",
+    "name": "Nothing Phone (2a) (8GB/128GB)",
+    "brand": "Nothing",
+    "price": 349,
+    "category": "smartphone_budget",
+    "cpu": "MediaTek Dimensity 7200 Pro (8-core / 4nm)",
+    "gpu": "Mali-G610 MC4",
+    "gpu_tgp_w": 8,
+    "ram_gb": 8,
+    "ram_type": "LPDDR4X",
+    "ram_soldered": true,
+    "storage_gb": 128,
+    "display": {
+      "size_inches": 6.7,
+      "resolution": "2412x1084",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 1300,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "Flexible AMOLED 120Hz"
+    },
+    "battery": {
+      "capacity_wh": 19.3,
+      "real_world_hours": 14.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Advanced 3,200mm\u00b2 Vapor Chamber",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.19,
+    "ports": [
+      "USB-C 2.0",
+      "Glyph Interface LED light bars"
+    ],
+    "strengths": [
+      "Iconic transparent design with customizable Glyph LED lighting",
+      "Clean, bloatware-free Nothing OS with silky 120Hz UI animations",
+      "Dual 50MP cameras with optical stabilization at just $349",
+      "Large 5000mAh battery delivers easily 14+ hours screen-on time"
+    ],
+    "pitfalls": [
+      "Plastic rear unibody prone to micro-scratches without a protective case",
+      "No wireless charging or water resistance beyond IP54 splash proofing",
+      "No charger included in the box"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800&q=80"
+  },
+  {
+    "id": "sony-wh1000xm5",
+    "device_type": "audio",
+    "name": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+    "brand": "Sony",
+    "price": 399,
+    "category": "audio_flagship",
+    "cpu": "Integrated Processor V1 + HD Noise Canceling QN1",
+    "gpu": "N/A",
+    "gpu_tgp_w": 0,
+    "ram_gb": 0,
+    "ram_type": "N/A",
+    "ram_soldered": true,
+    "storage_gb": 0,
+    "display": {
+      "size_inches": 0,
+      "resolution": "N/A",
+      "refresh_rate_hz": 0,
+      "brightness_nits": 0,
+      "color_gamut": "N/A",
+      "panel_type": "Custom 30mm carbon fiber driver"
+    },
+    "battery": {
+      "capacity_wh": 5.0,
+      "real_world_hours": 30.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive acoustic chamber",
+      "throttle_risk": "None",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.25,
+    "ports": [
+      "USB-C Quick Charge",
+      "3.5mm Stereo Mini Jack"
+    ],
+    "strengths": [
+      "Industry-leading active noise canceling with 8 microphones",
+      "Ultra-comfortable lightweight soft-fit leather headband",
+      "Up to 30-hour battery life with 3-minute quick charge",
+      "Lossless LDAC high-resolution audio support"
+    ],
+    "pitfalls": [
+      "Non-folding headband takes more space in carry-on backpacks"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
+  },
+  {
+    "id": "sony-wh1000xm4",
+    "device_type": "audio",
+    "name": "Sony WH-1000XM4 Wireless Noise Canceling Headphones",
+    "brand": "Sony",
+    "price": 279,
+    "category": "audio_value",
+    "cpu": "HD Noise Canceling Processor QN1",
+    "gpu": "N/A",
+    "gpu_tgp_w": 0,
+    "ram_gb": 0,
+    "ram_type": "N/A",
+    "ram_soldered": true,
+    "storage_gb": 0,
+    "display": {
+      "size_inches": 0,
+      "resolution": "N/A",
+      "refresh_rate_hz": 0,
+      "brightness_nits": 0,
+      "color_gamut": "N/A",
+      "panel_type": "Custom 40mm Liquid Crystal Polymer Driver"
+    },
+    "battery": {
+      "capacity_wh": 4.5,
+      "real_world_hours": 30.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive acoustic chamber",
+      "throttle_risk": "None",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.254,
+    "ports": [
+      "USB-C Quick Charge",
+      "3.5mm Stereo Mini Jack"
+    ],
+    "strengths": [
+      "Collapsible folding design fits easily into any carry-on backpack",
+      "Saves  over XM5 while retaining 90% of noise cancelling power",
+      "30-hour battery life with wear detection auto-pause",
+      "Multipoint Bluetooth connection between phone and laptop"
+    ],
+    "pitfalls": [
+      "Previous generation microphone voice isolation in windy outdoor conditions"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&q=80"
+  },
+  {
+    "id": "bose-qc-ultra",
+    "device_type": "audio",
+    "name": "Bose QuietComfort Ultra Headphones",
+    "brand": "Bose",
+    "price": 429,
+    "category": "audio_flagship",
+    "cpu": "Custom Bose Immersive Audio DSP",
+    "gpu": "N/A",
+    "gpu_tgp_w": 0,
+    "ram_gb": 0,
+    "ram_type": "N/A",
+    "ram_soldered": true,
+    "storage_gb": 0,
+    "display": {
+      "size_inches": 0,
+      "resolution": "N/A",
+      "refresh_rate_hz": 0,
+      "brightness_nits": 0,
+      "color_gamut": "N/A",
+      "panel_type": "Custom 35mm High-Excursion Driver"
+    },
+    "battery": {
+      "capacity_wh": 4.8,
+      "real_world_hours": 24.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive acoustic chamber",
+      "throttle_risk": "None",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.25,
+    "ports": [
+      "USB-C",
+      "2.5mm to 3.5mm Audio Cable"
+    ],
+    "strengths": [
+      "Breakthrough spatial audio with head tracking for movies and concerts",
+      "World-class noise rejection for clear business conference calls",
+      "Luxury aluminum headband arm construction"
+    ],
+    "pitfalls": [
+      "Battery drops to 18 hours when Immersive Audio mode is continuously enabled",
+      "Higher price tag ()"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&q=80"
+  },
+  {
+    "id": "lenovo-v15-g4-budget",
+    "name": "Lenovo V15 G4 (Ryzen 3 7320U, 8GB, 512GB)",
+    "brand": "Lenovo",
+    "price": 350,
+    "category": "budget_allrounder",
+    "cpu": "AMD Ryzen 3 7320U (4-core / 8-thread)",
+    "gpu": "AMD Radeon Graphics (Integrated)",
+    "gpu_tgp_w": 15,
+    "ram_gb": 8,
+    "ram_type": "LPDDR5",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 250,
+      "color_gamut": "45% NTSC",
+      "panel_type": "TN/IPS"
+    },
+    "battery": {
+      "capacity_wh": 38.0,
+      "real_world_hours": 5.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Single Fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 36
+    },
+    "weight_kg": 1.65,
+    "ports": [
+      "2x USB-A",
+      "1x USB-C",
+      "HDMI",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Solid under \u20b930k pick",
+      "512GB SSD",
+      "Good for college & office"
+    ],
+    "pitfalls": [
+      "Soldered RAM",
+      "Basic display"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "acer-aspire-3-ryzen5",
+    "name": "Acer Aspire 3 (Ryzen 5 7520U, 8GB, 512GB)",
+    "brand": "Acer",
+    "price": 420,
+    "category": "budget_allrounder",
+    "cpu": "AMD Ryzen 5 7520U (4-core / 8-thread)",
+    "gpu": "AMD Radeon Graphics (Integrated)",
+    "gpu_tgp_w": 15,
+    "ram_gb": 8,
+    "ram_type": "LPDDR5",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 250,
+      "color_gamut": "45% NTSC",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 40.0,
+      "real_world_hours": 6.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Single Fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 37
+    },
+    "weight_kg": 1.78,
+    "ports": [
+      "2x USB-A 3.2",
+      "1x USB-C",
+      "HDMI 1.4",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Best under \u20b935k performance",
+      "Ryzen 5 for multitasking",
+      "Full HD IPS"
+    ],
+    "pitfalls": [
+      "Soldered 8GB RAM",
+      "Average build"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "hp-15s-i3-12th",
+    "name": "HP 15s (Intel Core i3-1215U, 8GB, 512GB)",
+    "brand": "HP",
+    "price": 430,
+    "category": "budget_allrounder",
+    "cpu": "Intel Core i3-1215U (6-core / 8-thread)",
+    "gpu": "Intel UHD Graphics",
+    "gpu_tgp_w": 15,
+    "ram_gb": 8,
+    "ram_type": "DDR4",
+    "ram_soldered": false,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 250,
+      "color_gamut": "45% NTSC",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 41.0,
+      "real_world_hours": 6.5,
+      "usb_c_charging": false
+    },
+    "thermals": {
+      "cooling_type": "Single Fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 38
+    },
+    "weight_kg": 1.69,
+    "ports": [
+      "1x USB-C",
+      "2x USB-A",
+      "HDMI",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Upgradeable RAM",
+      "Reliable HP build",
+      "Good for students under \u20b936k"
+    ],
+    "pitfalls": [
+      "No USB-C charging",
+      "Basic screen"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "asus-vivobook-go-15",
+    "name": "ASUS Vivobook Go 15 (Ryzen 3 7320U, 8GB, 512GB)",
+    "brand": "ASUS",
+    "price": 380,
+    "category": "budget_allrounder",
+    "cpu": "AMD Ryzen 3 7320U (4-core / 8-thread)",
+    "gpu": "AMD Radeon Graphics",
+    "gpu_tgp_w": 15,
+    "ram_gb": 8,
+    "ram_type": "LPDDR5",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 200,
+      "color_gamut": "45% NTSC",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 42.0,
+      "real_world_hours": 6.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Single Fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 36
+    },
+    "weight_kg": 1.63,
+    "ports": [
+      "1x USB-C",
+      "2x USB-A",
+      "HDMI",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Light chassis",
+      "Under \u20b932k",
+      "Decent battery"
+    ],
+    "pitfalls": [
+      "Dim display",
+      "Soldered RAM"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "infinix-inbook-y2-plus",
+    "name": "Infinix INBook Y2 Plus (i3-1115G4, 8GB, 512GB)",
+    "brand": "Infinix",
+    "price": 320,
+    "category": "budget_allrounder",
+    "cpu": "Intel Core i3-1115G4 (2-core / 4-thread)",
+    "gpu": "Intel UHD Graphics",
+    "gpu_tgp_w": 15,
+    "ram_gb": 8,
+    "ram_type": "DDR4",
+    "ram_soldered": false,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 220,
+      "color_gamut": "45% NTSC",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 50.0,
+      "real_world_hours": 7.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Single Fan",
+      "throttle_risk": "Moderate",
+      "noise_under_load_db": 40
+    },
+    "weight_kg": 1.48,
+    "ports": [
+      "1x USB-C",
+      "2x USB-A",
+      "HDMI",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Cheapest usable i3 under \u20b927k",
+      "50Wh battery",
+      "Thin body"
+    ],
+    "pitfalls": [
+      "Older 11th-gen CPU",
+      "Average build quality"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "dell-inspiron-15-3520",
+    "name": "Dell Inspiron 15 3520 (i3-1215U, 8GB, 512GB)",
+    "brand": "Dell",
+    "price": 450,
+    "category": "budget_allrounder",
+    "cpu": "Intel Core i3-1215U (6-core / 8-thread)",
+    "gpu": "Intel UHD Graphics",
+    "gpu_tgp_w": 15,
+    "ram_gb": 8,
+    "ram_type": "DDR4",
+    "ram_soldered": false,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 250,
+      "color_gamut": "45% NTSC",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 41.0,
+      "real_world_hours": 6.0,
+      "usb_c_charging": false
+    },
+    "thermals": {
+      "cooling_type": "Single Fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 38
+    },
+    "weight_kg": 1.65,
+    "ports": [
+      "1x USB-C",
+      "2x USB-A",
+      "HDMI",
+      "SD card",
+      "3.5mm"
+    ],
+    "strengths": [
+      "120Hz display rare in budget",
+      "Dell support network",
+      "Under \u20b938k"
+    ],
+    "pitfalls": [
+      "Barrel charger only",
+      "Average speakers"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "samsung-galaxy-a35",
+    "name": "Samsung Galaxy A35 5G (8GB/128GB)",
+    "brand": "Samsung",
+    "price": 300,
+    "category": "smartphone_budget",
+    "cpu": "Exynos 1380",
+    "gpu": "Mali-G68",
+    "gpu_tgp_w": 0,
+    "ram_gb": 8,
+    "ram_type": "LPDDR4X",
+    "ram_soldered": true,
+    "storage_gb": 128,
+    "display": {
+      "size_inches": 6.6,
+      "resolution": "2340x1080",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 1000,
+      "color_gamut": "DCI-P3",
+      "panel_type": "Super AMOLED"
+    },
+    "battery": {
+      "capacity_wh": 19.0,
+      "real_world_hours": 12.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.209,
+    "ports": [
+      "USB-C",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Great AMOLED under \u20b925k",
+      "IP67",
+      "4 years OS updates"
+    ],
+    "pitfalls": [
+      "Average camera zoom",
+      "Plastic frame"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+    "device_type": "smartphone"
+  },
+  {
+    "id": "redmi-note-13-pro",
+    "name": "Redmi Note 13 Pro 5G (8GB/128GB)",
+    "brand": "Xiaomi",
+    "price": 280,
+    "category": "smartphone_budget",
+    "cpu": "Snapdragon 7s Gen 2",
+    "gpu": "Adreno",
+    "gpu_tgp_w": 0,
+    "ram_gb": 8,
+    "ram_type": "LPDDR4X",
+    "ram_soldered": true,
+    "storage_gb": 128,
+    "display": {
+      "size_inches": 6.67,
+      "resolution": "2712x1220",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 1800,
+      "color_gamut": "DCI-P3",
+      "panel_type": "AMOLED"
+    },
+    "battery": {
+      "capacity_wh": 19.4,
+      "real_world_hours": 14.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.199,
+    "ports": [
+      "USB-C",
+      "IR blaster"
+    ],
+    "strengths": [
+      "200MP camera under \u20b924k",
+      "67W fast charge",
+      "Bright AMOLED"
+    ],
+    "pitfalls": [
+      "No IP rating",
+      "Bloatware"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+    "device_type": "smartphone"
+  },
+  {
+    "id": "macbook-air-m3-16gb",
+    "name": "Apple MacBook Air 13\" (M3, 16GB/512GB)",
+    "brand": "Apple",
+    "price": 1299,
+    "category": "ultralight_productivity",
+    "cpu": "Apple M3 (8-core CPU / 10-core GPU)",
+    "gpu": "Apple M3 Integrated (10-core)",
+    "gpu_tgp_w": 22,
+    "ram_gb": 16,
+    "ram_type": "Unified Memory",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 13.6,
+      "resolution": "2560x1664",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 500,
+      "color_gamut": "P3 Wide",
+      "panel_type": "Liquid Retina"
+    },
+    "battery": {
+      "capacity_wh": 52.8,
+      "real_world_hours": 15.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Fanless",
+      "throttle_risk": "Low (light loads)",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 1.24,
+    "ports": [
+      "2x Thunderbolt / USB4",
+      "MagSafe 3",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Silent fanless",
+      "Excellent battery",
+      "macOS ecosystem",
+      "16GB unified RAM"
+    ],
+    "pitfalls": [
+      "No upgradability",
+      "Expensive storage upgrades",
+      "Limited ports"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "macbook-air-15-m3",
+    "name": "Apple MacBook Air 15\" (M3, 16GB/512GB)",
+    "brand": "Apple",
+    "price": 1499,
+    "category": "ultralight_productivity",
+    "cpu": "Apple M3 (8-core CPU / 10-core GPU)",
+    "gpu": "Apple M3 Integrated (10-core)",
+    "gpu_tgp_w": 22,
+    "ram_gb": 16,
+    "ram_type": "Unified Memory",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.3,
+      "resolution": "2880x1864",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 500,
+      "color_gamut": "P3 Wide",
+      "panel_type": "Liquid Retina"
+    },
+    "battery": {
+      "capacity_wh": 66.5,
+      "real_world_hours": 16.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Fanless",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 1.51,
+    "ports": [
+      "2x Thunderbolt / USB4",
+      "MagSafe 3",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Large silent display",
+      "All-day battery",
+      "Great for students & creators"
+    ],
+    "pitfalls": [
+      "Still fanless under sustained load",
+      "Premium price"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "macbook-pro-14-m3",
+    "name": "Apple MacBook Pro 14\" (M3, 16GB/512GB)",
+    "brand": "Apple",
+    "price": 1599,
+    "category": "creator_workstation",
+    "cpu": "Apple M3 (8-core CPU / 10-core GPU)",
+    "gpu": "Apple M3 Integrated",
+    "gpu_tgp_w": 35,
+    "ram_gb": 16,
+    "ram_type": "Unified Memory",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 14.2,
+      "resolution": "3024x1964",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 1600,
+      "color_gamut": "P3 Wide",
+      "panel_type": "Liquid Retina XDR"
+    },
+    "battery": {
+      "capacity_wh": 70.0,
+      "real_world_hours": 17.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Active dual fans",
+      "throttle_risk": "Very Low",
+      "noise_under_load_db": 35
+    },
+    "weight_kg": 1.55,
+    "ports": [
+      "3x Thunderbolt / USB4",
+      "HDMI",
+      "SDXC",
+      "MagSafe 3",
+      "3.5mm"
+    ],
+    "strengths": [
+      "XDR display",
+      "Active cooling",
+      "Pro ports",
+      "Long battery"
+    ],
+    "pitfalls": [
+      "Base M3 weaker than M3 Pro",
+      "Pricey"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "macbook-pro-16-m3-pro",
+    "name": "Apple MacBook Pro 16\" (M3 Pro, 18GB/512GB)",
+    "brand": "Apple",
+    "price": 2499,
+    "category": "creator_workstation",
+    "cpu": "Apple M3 Pro (12-core CPU / 18-core GPU)",
+    "gpu": "Apple M3 Pro Integrated",
+    "gpu_tgp_w": 45,
+    "ram_gb": 18,
+    "ram_type": "Unified Memory",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 16.2,
+      "resolution": "3456x2234",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 1600,
+      "color_gamut": "P3 Wide",
+      "panel_type": "Liquid Retina XDR"
+    },
+    "battery": {
+      "capacity_wh": 100.0,
+      "real_world_hours": 18.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Active dual fans",
+      "throttle_risk": "Very Low",
+      "noise_under_load_db": 38
+    },
+    "weight_kg": 2.14,
+    "ports": [
+      "3x Thunderbolt / USB4",
+      "HDMI",
+      "SDXC",
+      "MagSafe 3",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Pro silicon",
+      "Huge battery",
+      "Best macOS display"
+    ],
+    "pitfalls": [
+      "Heavy",
+      "Expensive"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "system76-lemur-pro",
+    "name": "System76 Lemur Pro (i7-1355U, 40GB, 1TB)",
+    "brand": "System76",
+    "price": 1399,
+    "category": "linux_developer",
+    "cpu": "Intel Core i7-1355U (10-core)",
+    "gpu": "Intel Iris Xe",
+    "gpu_tgp_w": 15,
+    "ram_gb": 40,
+    "ram_type": "DDR4",
+    "ram_soldered": false,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 14.1,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 400,
+      "color_gamut": "100% sRGB",
+      "panel_type": "Matte IPS"
+    },
+    "battery": {
+      "capacity_wh": 73.0,
+      "real_world_hours": 12.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual heatpipe",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 38
+    },
+    "weight_kg": 1.13,
+    "ports": [
+      "2x USB-C Thunderbolt",
+      "2x USB-A",
+      "HDMI",
+      "microSD",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Ships with Pop!_OS / Ubuntu",
+      "Fully repairable",
+      "Great Linux support",
+      "Upgradeable RAM"
+    ],
+    "pitfalls": [
+      "US-centric shipping",
+      "No discrete GPU"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "system76-oryx-pro",
+    "name": "System76 Oryx Pro (i7-13700H, RTX 4060, 32GB)",
+    "brand": "System76",
+    "price": 1999,
+    "category": "linux_developer",
+    "cpu": "Intel Core i7-13700H (14-core)",
+    "gpu": "NVIDIA RTX 4060 8GB",
+    "gpu_tgp_w": 105,
+    "ram_gb": 32,
+    "ram_type": "DDR5",
+    "ram_soldered": false,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 16.0,
+      "resolution": "2560x1600",
+      "refresh_rate_hz": 165,
+      "brightness_nits": 500,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 73.0,
+      "real_world_hours": 5.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Vapor chamber + dual fans",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 48
+    },
+    "weight_kg": 2.3,
+    "ports": [
+      "2x USB-C",
+      "3x USB-A",
+      "HDMI",
+      "RJ45",
+      "SD",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Native Linux NVIDIA support",
+      "Pop!_OS",
+      "Powerful RTX 4060",
+      "Open firmware"
+    ],
+    "pitfalls": [
+      "Bulky",
+      "Battery under load"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "framework-13-amd",
+    "name": "Framework Laptop 13 (AMD Ryzen 7 7840U, 32GB)",
+    "brand": "Framework",
+    "price": 1449,
+    "category": "linux_developer",
+    "cpu": "AMD Ryzen 7 7840U (8-core / 16-thread)",
+    "gpu": "AMD Radeon 780M",
+    "gpu_tgp_w": 28,
+    "ram_gb": 32,
+    "ram_type": "DDR5",
+    "ram_soldered": false,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 13.5,
+      "resolution": "2256x1504",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 400,
+      "color_gamut": "100% sRGB",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 55.0,
+      "real_world_hours": 10.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Single fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 40
+    },
+    "weight_kg": 1.3,
+    "ports": [
+      "4x Expansion Card bays (USB-C, USB-A, HDMI, etc.)"
+    ],
+    "strengths": [
+      "100% modular",
+      "Linux certified",
+      "Repairable",
+      "Upgradeable forever"
+    ],
+    "pitfalls": [
+      "DIY assembly optional",
+      "Premium for base specs"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "thinkpad-t14s-gen4",
+    "name": "Lenovo ThinkPad T14s Gen 4 (Ryzen 7 PRO 7840U, 32GB)",
+    "brand": "Lenovo",
+    "price": 1599,
+    "category": "linux_developer",
+    "cpu": "AMD Ryzen 7 PRO 7840U (8-core)",
+    "gpu": "AMD Radeon 780M",
+    "gpu_tgp_w": 28,
+    "ram_gb": 32,
+    "ram_type": "LPDDR5x",
+    "ram_soldered": true,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 14.0,
+      "resolution": "2880x1800",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 400,
+      "color_gamut": "100% sRGB",
+      "panel_type": "OLED"
+    },
+    "battery": {
+      "capacity_wh": 57.0,
+      "real_world_hours": 12.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual heatpipe",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 36
+    },
+    "weight_kg": 1.21,
+    "ports": [
+      "2x USB-C Thunderbolt 4",
+      "2x USB-A",
+      "HDMI",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Excellent Linux support",
+      "MIL-STD durable",
+      "OLED option",
+      "TrackPoint"
+    ],
+    "pitfalls": [
+      "Soldered RAM",
+      "Business pricing"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "dell-xps-13-plus",
+    "name": "Dell XPS 13 Plus (Core Ultra 7, 16GB, 512GB)",
+    "brand": "Dell",
+    "price": 1399,
+    "category": "ultralight_productivity",
+    "cpu": "Intel Core Ultra 7 155H",
+    "gpu": "Intel Arc Graphics",
+    "gpu_tgp_w": 28,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5x",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 13.4,
+      "resolution": "2880x1800",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 500,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "OLED"
+    },
+    "battery": {
+      "capacity_wh": 55.0,
+      "real_world_hours": 10.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual fan",
+      "throttle_risk": "Moderate",
+      "noise_under_load_db": 42
+    },
+    "weight_kg": 1.24,
+    "ports": [
+      "2x Thunderbolt 4",
+      "no USB-A native"
+    ],
+    "strengths": [
+      "Stunning OLED",
+      "Premium build",
+      "Ubuntu certified option"
+    ],
+    "pitfalls": [
+      "Few ports",
+      "Soldered RAM",
+      "Keyboard layout quirks"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "lenovo-ideapad-slim-3-15",
+    "name": "Lenovo IdeaPad Slim 3 15 (Ryzen 5 7520U, 16GB, 512GB)",
+    "brand": "Lenovo",
+    "price": 480,
+    "category": "budget_allrounder",
+    "cpu": "AMD Ryzen 5 7520U (4-core / 8-thread)",
+    "gpu": "AMD Radeon Graphics",
+    "gpu_tgp_w": 15,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 300,
+      "color_gamut": "45% NTSC",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 47.0,
+      "real_world_hours": 7.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Single fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 37
+    },
+    "weight_kg": 1.62,
+    "ports": [
+      "1x USB-C",
+      "2x USB-A",
+      "HDMI",
+      "3.5mm"
+    ],
+    "strengths": [
+      "16GB RAM under \u20b940k class",
+      "Good for multitasking",
+      "Student favourite"
+    ],
+    "pitfalls": [
+      "Soldered RAM",
+      "Average display"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "asus-tuf-a15-4050",
+    "name": "ASUS TUF Gaming A15 (Ryzen 7 7735HS, RTX 4050 6GB)",
+    "brand": "ASUS",
+    "price": 899,
+    "category": "gaming_performance",
+    "cpu": "AMD Ryzen 7 7735HS (8-core / 16-thread)",
+    "gpu": "NVIDIA RTX 4050 6GB (140W)",
+    "gpu_tgp_w": 140,
+    "ram_gb": 16,
+    "ram_type": "DDR5",
+    "ram_soldered": false,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 144,
+      "brightness_nits": 250,
+      "color_gamut": "45% NTSC",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 90.0,
+      "real_world_hours": 6.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual fans + heatpipes",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 50
+    },
+    "weight_kg": 2.2,
+    "ports": [
+      "1x USB-C",
+      "2x USB-A",
+      "HDMI 2.1",
+      "RJ45",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Full TGP RTX 4050",
+      "90Wh battery",
+      "Durable TUF build"
+    ],
+    "pitfalls": [
+      "Heavy",
+      "Average screen colors"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "msi-thin-gf63",
+    "name": "MSI Thin GF63 (i5-12450H, RTX 4050 6GB)",
+    "brand": "MSI",
+    "price": 799,
+    "category": "gaming_performance",
+    "cpu": "Intel Core i5-12450H (8-core)",
+    "gpu": "NVIDIA RTX 4050 6GB (45-95W)",
+    "gpu_tgp_w": 95,
+    "ram_gb": 16,
+    "ram_type": "DDR4",
+    "ram_soldered": false,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 144,
+      "brightness_nits": 250,
+      "color_gamut": "45% NTSC",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 52.0,
+      "real_world_hours": 4.0,
+      "usb_c_charging": false
+    },
+    "thermals": {
+      "cooling_type": "Cooler Boost 5",
+      "throttle_risk": "Moderate",
+      "noise_under_load_db": 48
+    },
+    "weight_kg": 1.86,
+    "ports": [
+      "1x USB-C",
+      "2x USB-A",
+      "HDMI",
+      "RJ45",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Entry gaming under mid budget",
+      "Upgradeable",
+      "144Hz"
+    ],
+    "pitfalls": [
+      "Lower TGP GPU",
+      "Average build"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "hp-victus-15-4050",
+    "name": "HP Victus 15 (Ryzen 5 7535HS, RTX 4050 6GB)",
+    "brand": "HP",
+    "price": 849,
+    "category": "gaming_performance",
+    "cpu": "AMD Ryzen 5 7535HS (6-core / 12-thread)",
+    "gpu": "NVIDIA RTX 4050 6GB",
+    "gpu_tgp_w": 95,
+    "ram_gb": 16,
+    "ram_type": "DDR5",
+    "ram_soldered": false,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 144,
+      "brightness_nits": 250,
+      "color_gamut": "45% NTSC",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 70.0,
+      "real_world_hours": 5.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual fan",
+      "throttle_risk": "Moderate",
+      "noise_under_load_db": 47
+    },
+    "weight_kg": 2.29,
+    "ports": [
+      "1x USB-C",
+      "2x USB-A",
+      "HDMI 2.1",
+      "RJ45",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Solid mid gaming",
+      "MUX switch",
+      "Good cooling for price"
+    ],
+    "pitfalls": [
+      "Plastic chassis",
+      "Speakers average"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "acer-swift-go-14-oled-ultra5",
+    "name": "Acer Swift Go 14 AI (Core Ultra 5 125H, 16GB, 1TB OLED)",
+    "brand": "Acer",
+    "price": 849,
+    "category": "cs_student_developer",
+    "cpu": "Intel Core Ultra 5 125H (14-core)",
+    "gpu": "Intel Arc Graphics",
+    "gpu_tgp_w": 28,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5x",
+    "ram_soldered": true,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 14.0,
+      "resolution": "2880x1800",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 400,
+      "color_gamut": "100% DCI-P3",
+      "panel_type": "OLED"
+    },
+    "battery": {
+      "capacity_wh": 65.0,
+      "real_world_hours": 10.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 40
+    },
+    "weight_kg": 1.3,
+    "ports": [
+      "2x Thunderbolt 4",
+      "2x USB-A",
+      "HDMI 2.1",
+      "3.5mm"
+    ],
+    "strengths": [
+      "2.8K OLED 120Hz",
+      "1TB SSD",
+      "AI NPU",
+      "Light"
+    ],
+    "pitfalls": [
+      "Soldered RAM",
+      "PWM at low brightness"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "samsung-galaxy-book4",
+    "name": "Samsung Galaxy Book4 (Core 5 120U, 16GB, 512GB)",
+    "brand": "Samsung",
+    "price": 999,
+    "category": "ultralight_productivity",
+    "cpu": "Intel Core 5 120U",
+    "gpu": "Intel Graphics",
+    "gpu_tgp_w": 15,
+    "ram_gb": 16,
+    "ram_type": "LPDDR4x",
+    "ram_soldered": true,
+    "storage_gb": 512,
+    "display": {
+      "size_inches": 15.6,
+      "resolution": "1920x1080",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 300,
+      "color_gamut": "72% NTSC",
+      "panel_type": "IPS"
+    },
+    "battery": {
+      "capacity_wh": 54.0,
+      "real_world_hours": 9.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Single fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 35
+    },
+    "weight_kg": 1.55,
+    "ports": [
+      "2x USB-C",
+      "1x USB-A",
+      "HDMI",
+      "microSD",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Samsung ecosystem",
+      "Thin metal body",
+      "Good battery"
+    ],
+    "pitfalls": [
+      "Average display",
+      "Soldered RAM"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "lg-gram-14-2024",
+    "name": "LG Gram 14 (Core Ultra 7 155H, 16GB, 1TB)",
+    "brand": "LG",
+    "price": 1499,
+    "category": "ultralight_productivity",
+    "cpu": "Intel Core Ultra 7 155H",
+    "gpu": "Intel Arc Graphics",
+    "gpu_tgp_w": 28,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5x",
+    "ram_soldered": true,
+    "storage_gb": 1024,
+    "display": {
+      "size_inches": 14.0,
+      "resolution": "2880x1800",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 400,
+      "color_gamut": "99% DCI-P3",
+      "panel_type": "IPS Anti-glare"
+    },
+    "battery": {
+      "capacity_wh": 72.0,
+      "real_world_hours": 15.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Dual fan",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 38
+    },
+    "weight_kg": 0.999,
+    "ports": [
+      "2x Thunderbolt 4",
+      "2x USB-A",
+      "HDMI",
+      "microSD",
+      "3.5mm"
+    ],
+    "strengths": [
+      "Under 1kg",
+      "Huge battery",
+      "Bright display",
+      "MIL-STD"
+    ],
+    "pitfalls": [
+      "Expensive",
+      "Soldered RAM"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "device_type": "laptop"
+  },
+  {
+    "id": "iphone-15",
+    "name": "Apple iPhone 15 (128GB)",
+    "brand": "Apple",
+    "price": 799,
+    "category": "smartphone_flagship",
+    "cpu": "Apple A16 Bionic",
+    "gpu": "Apple GPU (5-core)",
+    "gpu_tgp_w": 0,
+    "ram_gb": 6,
+    "ram_type": "LPDDR5",
+    "ram_soldered": true,
+    "storage_gb": 128,
+    "display": {
+      "size_inches": 6.1,
+      "resolution": "2556x1179",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 2000,
+      "color_gamut": "P3",
+      "panel_type": "Super Retina XDR OLED"
+    },
+    "battery": {
+      "capacity_wh": 12.7,
+      "real_world_hours": 16.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.171,
+    "ports": [
+      "USB-C"
+    ],
+    "strengths": [
+      "USB-C finally",
+      "Excellent cameras",
+      "Long software support"
+    ],
+    "pitfalls": [
+      "60Hz display",
+      "Expensive storage"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+    "device_type": "smartphone"
+  },
+  {
+    "id": "iphone-16",
+    "name": "Apple iPhone 16 (128GB)",
+    "brand": "Apple",
+    "price": 899,
+    "category": "smartphone_flagship",
+    "cpu": "Apple A18",
+    "gpu": "Apple GPU",
+    "gpu_tgp_w": 0,
+    "ram_gb": 8,
+    "ram_type": "LPDDR5X",
+    "ram_soldered": true,
+    "storage_gb": 128,
+    "display": {
+      "size_inches": 6.1,
+      "resolution": "2556x1179",
+      "refresh_rate_hz": 60,
+      "brightness_nits": 2000,
+      "color_gamut": "P3",
+      "panel_type": "Super Retina XDR OLED"
+    },
+    "battery": {
+      "capacity_wh": 13.5,
+      "real_world_hours": 17.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.17,
+    "ports": [
+      "USB-C"
+    ],
+    "strengths": [
+      "Camera Control",
+      "A18 chip",
+      "Apple Intelligence ready"
+    ],
+    "pitfalls": [
+      "Still 60Hz",
+      "Price"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+    "device_type": "smartphone"
+  },
+  {
+    "id": "samsung-galaxy-s24",
+    "name": "Samsung Galaxy S24 (8GB/256GB)",
+    "brand": "Samsung",
+    "price": 799,
+    "category": "smartphone_flagship",
+    "cpu": "Snapdragon 8 Gen 3 / Exynos 2400",
+    "gpu": "Adreno 750",
+    "gpu_tgp_w": 0,
+    "ram_gb": 8,
+    "ram_type": "LPDDR5X",
+    "ram_soldered": true,
+    "storage_gb": 256,
+    "display": {
+      "size_inches": 6.2,
+      "resolution": "2340x1080",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 2600,
+      "color_gamut": "DCI-P3",
+      "panel_type": "Dynamic AMOLED 2X"
+    },
+    "battery": {
+      "capacity_wh": 15.2,
+      "real_world_hours": 14.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Vapor chamber",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.167,
+    "ports": [
+      "USB-C"
+    ],
+    "strengths": [
+      "Compact flagship",
+      "120Hz bright display",
+      "7 years updates"
+    ],
+    "pitfalls": [
+      "25W charging only",
+      "Average zoom"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+    "device_type": "smartphone"
+  },
+  {
+    "id": "google-pixel-8a",
+    "name": "Google Pixel 8a (8GB/128GB)",
+    "brand": "Google",
+    "price": 499,
+    "category": "smartphone_budget",
+    "cpu": "Google Tensor G3",
+    "gpu": "Immortalis-G715s",
+    "gpu_tgp_w": 0,
+    "ram_gb": 8,
+    "ram_type": "LPDDR5X",
+    "ram_soldered": true,
+    "storage_gb": 128,
+    "display": {
+      "size_inches": 6.1,
+      "resolution": "2400x1080",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 2000,
+      "color_gamut": "DCI-P3",
+      "panel_type": "OLED"
+    },
+    "battery": {
+      "capacity_wh": 17.0,
+      "real_world_hours": 14.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive",
+      "throttle_risk": "Moderate",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.188,
+    "ports": [
+      "USB-C"
+    ],
+    "strengths": [
+      "Best AI camera under mid-range",
+      "7 years updates",
+      "Clean Android"
+    ],
+    "pitfalls": [
+      "Tensor modem",
+      "Plastic frame"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+    "device_type": "smartphone"
+  },
+  {
+    "id": "oneplus-12r",
+    "name": "OnePlus 12R (16GB/256GB)",
+    "brand": "OnePlus",
+    "price": 549,
+    "category": "smartphone_budget",
+    "cpu": "Snapdragon 8 Gen 2",
+    "gpu": "Adreno 740",
+    "gpu_tgp_w": 0,
+    "ram_gb": 16,
+    "ram_type": "LPDDR5X",
+    "ram_soldered": true,
+    "storage_gb": 256,
+    "display": {
+      "size_inches": 6.78,
+      "resolution": "2780x1264",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 4500,
+      "color_gamut": "DCI-P3",
+      "panel_type": "LTPO AMOLED"
+    },
+    "battery": {
+      "capacity_wh": 21.0,
+      "real_world_hours": 16.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Vapor chamber",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.207,
+    "ports": [
+      "USB-C"
+    ],
+    "strengths": [
+      "100W charging",
+      "Bright display",
+      "Flagship chip at mid price"
+    ],
+    "pitfalls": [
+      "Average camera zoom",
+      "No wireless charge"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+    "device_type": "smartphone"
+  },
+  {
+    "id": "motorola-edge-50-pro",
+    "name": "Motorola Edge 50 Pro (12GB/256GB)",
+    "brand": "Motorola",
+    "price": 399,
+    "category": "smartphone_budget",
+    "cpu": "Snapdragon 7 Gen 3",
+    "gpu": "Adreno",
+    "gpu_tgp_w": 0,
+    "ram_gb": 12,
+    "ram_type": "LPDDR5X",
+    "ram_soldered": true,
+    "storage_gb": 256,
+    "display": {
+      "size_inches": 6.7,
+      "resolution": "2712x1220",
+      "refresh_rate_hz": 144,
+      "brightness_nits": 2000,
+      "color_gamut": "DCI-P3",
+      "panel_type": "pOLED"
+    },
+    "battery": {
+      "capacity_wh": 17.0,
+      "real_world_hours": 13.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.186,
+    "ports": [
+      "USB-C"
+    ],
+    "strengths": [
+      "Clean near-stock Android",
+      "125W charge",
+      "Curved pOLED"
+    ],
+    "pitfalls": [
+      "Average low-light camera",
+      "Software update length"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+    "device_type": "smartphone"
+  },
+  {
+    "id": "vivo-v30",
+    "name": "Vivo V30 5G (8GB/256GB)",
+    "brand": "Vivo",
+    "price": 360,
+    "category": "smartphone_budget",
+    "cpu": "Snapdragon 7 Gen 3",
+    "gpu": "Adreno",
+    "gpu_tgp_w": 0,
+    "ram_gb": 8,
+    "ram_type": "LPDDR4X",
+    "ram_soldered": true,
+    "storage_gb": 256,
+    "display": {
+      "size_inches": 6.78,
+      "resolution": "2800x1260",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 2800,
+      "color_gamut": "DCI-P3",
+      "panel_type": "AMOLED"
+    },
+    "battery": {
+      "capacity_wh": 19.0,
+      "real_world_hours": 14.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.186,
+    "ports": [
+      "USB-C"
+    ],
+    "strengths": [
+      "Great portrait camera",
+      "Bright curved AMOLED",
+      "80W charge"
+    ],
+    "pitfalls": [
+      "Bloatware",
+      "No IP68"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+    "device_type": "smartphone"
+  },
+  {
+    "id": "realme-12-pro-plus",
+    "name": "realme 12 Pro+ 5G (12GB/256GB)",
+    "brand": "realme",
+    "price": 340,
+    "category": "smartphone_budget",
+    "cpu": "Snapdragon 7s Gen 2",
+    "gpu": "Adreno",
+    "gpu_tgp_w": 0,
+    "ram_gb": 12,
+    "ram_type": "LPDDR4X",
+    "ram_soldered": true,
+    "storage_gb": 256,
+    "display": {
+      "size_inches": 6.7,
+      "resolution": "2412x1080",
+      "refresh_rate_hz": 120,
+      "brightness_nits": 950,
+      "color_gamut": "DCI-P3",
+      "panel_type": "AMOLED"
+    },
+    "battery": {
+      "capacity_wh": 19.0,
+      "real_world_hours": 13.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "Passive",
+      "throttle_risk": "Low",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.19,
+    "ports": [
+      "USB-C"
+    ],
+    "strengths": [
+      "Periscope zoom under \u20b930k class",
+      "Premium design",
+      "67W charge"
+    ],
+    "pitfalls": [
+      "Average gaming sustained",
+      "Software ads"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+    "device_type": "smartphone"
+  },
+  {
+    "id": "apple-airpods-pro-2",
+    "name": "Apple AirPods Pro 2 (USB-C)",
+    "brand": "Apple",
+    "price": 249,
+    "category": "audio_flagship",
+    "cpu": "Apple H2",
+    "gpu": "N/A",
+    "gpu_tgp_w": 0,
+    "ram_gb": 0,
+    "ram_type": "N/A",
+    "ram_soldered": true,
+    "storage_gb": 0,
+    "display": {
+      "size_inches": 0,
+      "resolution": "N/A",
+      "refresh_rate_hz": 0,
+      "brightness_nits": 0,
+      "color_gamut": "N/A",
+      "panel_type": "N/A"
+    },
+    "battery": {
+      "capacity_wh": 0.5,
+      "real_world_hours": 6.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "N/A",
+      "throttle_risk": "N/A",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.05,
+    "ports": [
+      "USB-C case"
+    ],
+    "strengths": [
+      "Best ANC in earbuds",
+      "Spatial audio",
+      "Seamless Apple ecosystem"
+    ],
+    "pitfalls": [
+      "Android features limited",
+      "Price"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800&q=80",
+    "device_type": "audio"
+  },
+  {
+    "id": "sony-wf1000xm5",
+    "name": "Sony WF-1000XM5 Wireless Earbuds",
+    "brand": "Sony",
+    "price": 299,
+    "category": "audio_flagship",
+    "cpu": "Sony QN2e + V2 processors",
+    "gpu": "N/A",
+    "gpu_tgp_w": 0,
+    "ram_gb": 0,
+    "ram_type": "N/A",
+    "ram_soldered": true,
+    "storage_gb": 0,
+    "display": {
+      "size_inches": 0,
+      "resolution": "N/A",
+      "refresh_rate_hz": 0,
+      "brightness_nits": 0,
+      "color_gamut": "N/A",
+      "panel_type": "N/A"
+    },
+    "battery": {
+      "capacity_wh": 0.4,
+      "real_world_hours": 8.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "N/A",
+      "throttle_risk": "N/A",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.04,
+    "ports": [
+      "USB-C case"
+    ],
+    "strengths": [
+      "Class-leading ANC earbuds",
+      "LDAC",
+      "Great call quality"
+    ],
+    "pitfalls": [
+      "Case bulky",
+      "Price"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800&q=80",
+    "device_type": "audio"
+  },
+  {
+    "id": "sennheiser-momentum-4",
+    "name": "Sennheiser Momentum 4 Wireless",
+    "brand": "Sennheiser",
+    "price": 349,
+    "category": "audio_flagship",
+    "cpu": "Sennheiser proprietary",
+    "gpu": "N/A",
+    "gpu_tgp_w": 0,
+    "ram_gb": 0,
+    "ram_type": "N/A",
+    "ram_soldered": true,
+    "storage_gb": 0,
+    "display": {
+      "size_inches": 0,
+      "resolution": "N/A",
+      "refresh_rate_hz": 0,
+      "brightness_nits": 0,
+      "color_gamut": "N/A",
+      "panel_type": "N/A"
+    },
+    "battery": {
+      "capacity_wh": 1.2,
+      "real_world_hours": 60.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "N/A",
+      "throttle_risk": "N/A",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.293,
+    "ports": [
+      "USB-C",
+      "3.5mm"
+    ],
+    "strengths": [
+      "60h battery",
+      "Audiophile sound",
+      "Comfortable"
+    ],
+    "pitfalls": [
+      "ANC behind Sony/Bose",
+      "Looks plain"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1546435770-a3e426b57658?w=800&q=80",
+    "device_type": "audio"
+  },
+  {
+    "id": "boat-nirvana-ion",
+    "name": "boAt Nirvana Ion ANC Neckband",
+    "brand": "boAt",
+    "price": 24,
+    "category": "audio_value",
+    "cpu": "N/A",
+    "gpu": "N/A",
+    "gpu_tgp_w": 0,
+    "ram_gb": 0,
+    "ram_type": "N/A",
+    "ram_soldered": true,
+    "storage_gb": 0,
+    "display": {
+      "size_inches": 0,
+      "resolution": "N/A",
+      "refresh_rate_hz": 0,
+      "brightness_nits": 0,
+      "color_gamut": "N/A",
+      "panel_type": "N/A"
+    },
+    "battery": {
+      "capacity_wh": 0.3,
+      "real_world_hours": 24.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "N/A",
+      "throttle_risk": "N/A",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.035,
+    "ports": [
+      "USB-C"
+    ],
+    "strengths": [
+      "Ultra cheap ANC",
+      "Long battery",
+      "India favourite"
+    ],
+    "pitfalls": [
+      "Build quality",
+      "Sound not audiophile"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800&q=80",
+    "device_type": "audio"
+  },
+  {
+    "id": "jbl-tune-770nc",
+    "name": "JBL Tune 770NC Wireless Headphones",
+    "brand": "JBL",
+    "price": 99,
+    "category": "audio_value",
+    "cpu": "N/A",
+    "gpu": "N/A",
+    "gpu_tgp_w": 0,
+    "ram_gb": 0,
+    "ram_type": "N/A",
+    "ram_soldered": true,
+    "storage_gb": 0,
+    "display": {
+      "size_inches": 0,
+      "resolution": "N/A",
+      "refresh_rate_hz": 0,
+      "brightness_nits": 0,
+      "color_gamut": "N/A",
+      "panel_type": "N/A"
+    },
+    "battery": {
+      "capacity_wh": 0.8,
+      "real_world_hours": 44.0,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "N/A",
+      "throttle_risk": "N/A",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.232,
+    "ports": [
+      "USB-C",
+      "3.5mm"
+    ],
+    "strengths": [
+      "44h battery",
+      "Good bass",
+      "Affordable ANC"
+    ],
+    "pitfalls": [
+      "Plasticky",
+      "ANC mid-tier"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1546435770-a3e426b57658?w=800&q=80",
+    "device_type": "audio"
+  },
+  {
+    "id": "nothing-ear-a",
+    "name": "Nothing Ear (a)",
+    "brand": "Nothing",
+    "price": 99,
+    "category": "audio_value",
+    "cpu": "N/A",
+    "gpu": "N/A",
+    "gpu_tgp_w": 0,
+    "ram_gb": 0,
+    "ram_type": "N/A",
+    "ram_soldered": true,
+    "storage_gb": 0,
+    "display": {
+      "size_inches": 0,
+      "resolution": "N/A",
+      "refresh_rate_hz": 0,
+      "brightness_nits": 0,
+      "color_gamut": "N/A",
+      "panel_type": "N/A"
+    },
+    "battery": {
+      "capacity_wh": 0.3,
+      "real_world_hours": 5.5,
+      "usb_c_charging": true
+    },
+    "thermals": {
+      "cooling_type": "N/A",
+      "throttle_risk": "N/A",
+      "noise_under_load_db": 0
+    },
+    "weight_kg": 0.04,
+    "ports": [
+      "USB-C case"
+    ],
+    "strengths": [
+      "Unique design",
+      "Good ANC for price",
+      "Clean app"
+    ],
+    "pitfalls": [
+      "Battery mid",
+      "Fit varies"
+    ],
+    "image_url": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800&q=80",
+    "device_type": "audio"
+  }
+]

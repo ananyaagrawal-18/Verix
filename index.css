@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@layer base {
+  :root, [data-theme="dark"] {
+    --bg-base: #080B11;
+    --bg-surface: #090D17;
+    --bg-card: #0E1526;
+    --bg-elevated: #111827;
+    --bg-hover: #131A2B;
+    --bg-input: #101625;
+    --bg-sidebar: #090D17;
+    --border: #1E293B;
+    --border-subtle: #1B2234;
+    --border-strong: #2D3D58;
+    --text-primary: #F3F4F6;
+    --text-secondary: #9CA3AF;
+    --text-muted: #6B7280;
+    --text-inverse: #0F172A;
+    --accent: #4F6BFF;
+    --accent-hover: #3D5AFE;
+    --accent-muted: rgba(79, 107, 255, 0.15);
+    --success: #10B981;
+    --warning: #F59E0B;
+    --danger: #EF4444;
+    --glow-blue: rgba(59, 130, 246, 0.25);
+    --glow-green: rgba(16, 185, 129, 0.25);
+    --scrollbar-track: #080B11;
+    --scrollbar-thumb: #1E293B;
+    --scrollbar-thumb-hover: #334155;
+    --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+  }
+
+  [data-theme="light"] {
+    --bg-base: #F8FAFC;
+    --bg-surface: #FFFFFF;
+    --bg-card: #FFFFFF;
+    --bg-elevated: #F1F5F9;
+    --bg-hover: #F1F5F9;
+    --bg-input: #F1F5F9;
+    --bg-sidebar: #FFFFFF;
+    --border: #E2E8F0;
+    --border-subtle: #E2E8F0;
+    --border-strong: #CBD5E1;
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --text-muted: #94A3B8;
+    --text-inverse: #F8FAFC;
+    --accent: #3B82F6;
+    --accent-hover: #2563EB;
+    --accent-muted: rgba(59, 130, 246, 0.1);
+    --success: #059669;
+    --warning: #D97706;
+    --danger: #DC2626;
+    --glow-blue: rgba(59, 130, 246, 0.12);
+    --glow-green: rgba(16, 185, 129, 0.12);
+    --scrollbar-track: #F1F5F9;
+    --scrollbar-thumb: #CBD5E1;
+    --scrollbar-thumb-hover: #94A3B8;
+    --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.08);
+  }
+
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* Glass & Card Glow Styles */
+.dashboard-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  box-shadow: var(--card-shadow);
+}
+
+.dashboard-card:hover {
+  border-color: var(--border-strong);
+}
+
+.green-glow {
+  box-shadow: 0 0 15px -3px var(--glow-green);
+}
+
+.blue-glow {
+  box-shadow: 0 0 15px -3px var(--glow-blue);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
