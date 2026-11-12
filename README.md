@@ -1,6 +1,7 @@
 # RECHECK-X (Veritas AI) 🛡️
 ### *An AI Decision Intelligence Assistant That Double-Checks Its First Answer*
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fananyaagrawal-18%2FVerix&env=GROQ_API_KEY&envDescription=Your%20Groq%20Cloud%20API%20Key%20from%20console.groq.com%2Fkeys&project-name=verix-ai)
 [![GitHub License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI%20%7C%20Python%203.14-009688.svg)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/Frontend-React%2019%20%7C%20Vite%20%7C%20TailwindCSS-61DAFB.svg)](https://react.dev/)
