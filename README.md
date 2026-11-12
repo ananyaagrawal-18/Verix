@@ -1,121 +1,129 @@
-# VERITAS TECH 🛡️
-### *An AI That Double-Checks Its First Answer*
-**Hackathon Decision Support Assistant for Consumer Electronics & Gadget Purchases**
+# RECHECK-X (Veritas AI) 🛡️
+### *An AI Decision Intelligence Assistant That Double-Checks Its First Answer*
+
+[![GitHub License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![FastAPI](https://img.shields.io/badge/Backend-FastAPI%20%7C%20Python%203.14-009688.svg)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/Frontend-React%2019%20%7C%20Vite%20%7C%20TailwindCSS-61DAFB.svg)](https://react.dev/)
+[![Groq Cloud](https://img.shields.io/badge/LLM-Groq%20Cloud%20(qwen%2Fqwen3.8--27b)-F55036.svg)](https://groq.com/)
+[![Wikipedia API](https://img.shields.io/badge/Data-Wikipedia%20Knowledge%20Graph%20REST%20API-grey.svg)](https://en.wikipedia.org/api/rest_v1/)
+
+> **Problem Statement**: AI often gives a confident first answer, even when the proof is weak or a better option was missed. When the decision is about money, hardware, or operations, an unchecked first answer can be costly. RECHECK-X makes AI more careful, not just more confident.
 
 ---
 
-## 🚀 Quick Start (One-Click)
+## 🌟 Key Features
 
-### Option 1: Double-Click Startup
-Simply double-click:
+1. **3-Stage Autonomous Adversarial Auditing**:
+   - **Stage 1 (First-Pass)**: Proposes a baseline recommendation with initial confidence score.
+   - **Stage 2 (Red-Team Challenge)**: Argues *against* its own first answer, searching for physical contradictions, thermal limits, soldered memory traps, and overpriced alternatives.
+   - **Stage 3 (Reconciled Verdict)**: Dynamic confidence delta recalculation resulting in an auditable verdict: **`AGREES`**, **`CHANGED`**, or **`UNCERTAIN`**.
+2. **Real-World Live Telemetry (Dual Engine)**:
+   - **Groq Cloud LLM (`qwen/qwen3.8-27b`)**: Ultra-fast (~300 tokens/sec) adversarial reasoning producing 3-point technical audits (Blindspots & Traps Caught, Hardware Superiority Breakdown, Buyer Regret Prevention).
+   - **Wikipedia Knowledge Graph REST API**: Live real-world hardware verification without hallucinated claims.
+3. **Interactive Socratic Red-Team Lab**:
+   - Generates interactive counter-questions with 1-click option chips.
+   - Dynamically recomputes the recommendation live when constraints change.
+4. **Unified Dark & Light Themes**:
+   - High-tech pitch black (`#080B11`) stealth aesthetic and crisp slate-50 (`#F8FAFC`) light mode with persistent theme switching.
+5. **Unified Top Navigation Bar**:
+   - Synchronized header across Landing Page, QC Dashboard, and Socratic Lab.
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- **Python 3.10+**
+- **Node.js 18+** & npm
+- (Optional) Free Groq API key from [Groq Console](https://console.groq.com/keys)
+
+### Option 1: One-Click Startup (Windows)
+Double-click:
 ```bash
 start_all.bat
 ```
 This automatically launches:
-- **FastAPI Backend**: `http://127.0.0.1:8001`
-- **React Frontend**: `http://localhost:5173` (or `http://localhost:5174`)
+- **Backend (FastAPI)**: `http://127.0.0.1:8003`
+- **Frontend (Vite Dev Server)**: `http://localhost:5173`
 
 ---
 
-### Option 2: Manual Terminal Commands
+### Option 2: Manual Terminal Startup
 
-#### 1. Backend (Terminal 1)
-```powershell
-cd backend
-python -m uvicorn main:app --host 127.0.0.1 --port 8001 --reload
+#### 1. Setup Environment
+```bash
+cp .env.example .env
+# Edit .env and paste your GROQ_API_KEY if desired
 ```
 
-#### 2. Frontend (Terminal 2)
-```powershell
+#### 2. Backend (Terminal 1)
+```bash
+cd backend
+pip install -r requirements.txt
+python -m uvicorn main:app --host 127.0.0.1 --port 8003 --reload
+```
+
+#### 3. Frontend (Terminal 2)
+```bash
 cd frontend
+npm install
 npm run dev
 ```
 
-Open your browser to: **`http://localhost:5174`** (or `http://localhost:5173`).
+Open your browser to: **`http://localhost:5173`**
 
 ---
 
-## 🎯 The Hackathon Problem Solved
+## 🎯 Real-World Benchmark Scenarios
 
-Standard AI chatbots answer incomplete prompts with immediate, unjustified confidence:
-> *"I need a laptop for 4K video editing under $1200"*  
-> ➔ Standard AI: *"Get the MacBook Air M2 8GB! It's super fast and has Apple Silicon!"*
-
-**The Costly Mistake**:
-The customer buys it, only to discover:
-1. **Thermal Choking**: Fanless passive cooling drops clocks by 35% on multi-layer timelines.
-2. **Memory Paging Trap**: 8GB unified RAM causes severe scratch disk thrashing.
-3. **No Discrete GPU**: No CUDA acceleration for DaVinci Resolve or Premiere Pro.
-
-### How Veritas Double-Checks:
-1. **Stage 1 (First-Pass)**: Proposes initial option, logs implicit assumptions, sets initial baseline confidence.
-2. **Stage 2 (Red-Team Challenge)**: Argues *against* its own first answer, audits cooling/RAM/display, asks focused **Socratic Counter-Questions** with interactive choice chips.
-3. **Stage 3 (Reconciliation)**: Shifts confidence before/after, outputs an auditable verdict: **`AGREES`**, **`CHANGED`**, or **`UNCERTAIN`**.
-4. **Baseline Comparison**: Side-by-side card contrasting Single-Pass AI vs Veritas Double-Check AI.
-
----
-
-## 🧪 Judge Showcase Scenarios (1-Click Test in UI)
-
-Top of the screen features 4 benchmark presets ready for judges:
-- **The 4K Video Editor Trap**: First-pass MacBook Air 8GB red-teamed for thermal choke & memory swap ➔ Pivots to ASUS ROG Zephyrus G14 (RTX 4060, OLED). Verdict: **`CHANGED`**.
-- **The College CS Student Dilemma**: First-pass Legion Pro 5 (2.5kg brick, 3.8h battery) ➔ Pivots to 1.5kg Zephyrus G14 with 8.5h battery. Verdict: **`CHANGED`**.
-- **The Road Warrior Stress-Test**: ThinkPad X1 Carbon Gen 12 stress-tested and confirmed optimal. Verdict: **`AGREES`**.
-- **The Budget Machine Learning Paradox**: Local LLM training under $750 identified as mathematically impossible on 6GB VRAM. Confidence drops to 42%. Verdict: **`UNCERTAIN`**.
-
----
-
-## 📊 Automated Verification Tests
-
-Run the built-in test suite:
-```powershell
-cd backend
-python test_api.py
-```
-Outputs:
-```text
---- 1. Testing /api/health --- Status: 200 (15 products loaded)
---- 2. Testing /api/scenarios --- Loaded 4 scenarios
---- 3. Testing /api/products --- Loaded 15 products
---- 4. Testing /api/evaluate --- Verdict: CHANGED (0.76 -> 0.92)
---- 5. Testing /api/reconcile-answers --- Dynamic recalculation confirmed
-All API tests PASSED perfectly!
-```
+| Scenario | Standard AI First-Pass | The Hidden Trap Caught | RECHECK-X Double-Check | Verdict |
+| :--- | :--- | :--- | :--- | :--- |
+| **4K DaVinci Video Editing** | MacBook Air M2 (8GB) | Fanless thermal throttle (-45% clocks) & 8GB swap memory lockup | **ASUS ROG Zephyrus G14** (OLED, Ryzen 9, RTX 4060) | **`CHANGED`** *(Saves $450)* |
+| **Heavy Gaming Flagship** | Samsung Galaxy S24 Ultra | 256GB storage ceiling & conservative thermal envelope | **OnePlus 12** (16GB/512GB, Dual Cryo-Velocity VC) | **`CHANGED`** *(Saves $500)* |
+| **Long-Haul ANC Audio** | Sony WH-1000XM5 | Verified dual processors, 30h battery, soft-fit leather | **Sony WH-1000XM5** (Certified Winner) | **`AGREES`** *(100% Match)* |
 
 ---
 
 ## 📁 Repository Structure
+
 ```
-d:\ting\
-├── backend\
-│   ├── database\
-│   │   └── products.json          # 15+ benchmarked laptops with telemetry & gotchas
-│   ├── engine\
-│   │   ├── verifier.py            # 3-Stage Verification Engine & Baseline Comparator
-│   │   └── scenarios.py           # 4 Pre-packaged Judge Showcase Scenarios
-│   ├── main.py                    # FastAPI server (Endpoints on port 8001)
-│   └── test_api.py                # Automated endpoint test suite
-├── frontend\
-│   ├── src\
-│   │   ├── components\
-│   │   │   ├── Navbar.jsx                  # Header with hackathon badge & action triggers
-│   │   │   ├── JudgePresetBar.jsx          # 1-Click judge test scenarios
-│   │   │   ├── DoubleCheckStepper.jsx      # Live 3-stage progress indicator
-│   │   │   ├── ConfidenceShiftMeter.jsx    # Visual before/after delta gauge
-│   │   │   ├── ProductCard.jsx             # Hardware spec cards with memory & gotchas
-│   │   │   ├── RedTeamCritique.jsx         # Devil's Advocate audit accordion
-│   │   │   ├── SocraticCounterQuestions.jsx# Interactive customer chip questions
-│   │   │   ├── BaselineComparisonModal.jsx # Head-to-Head Single-Pass vs Veritas
-│   │   │   ├── ProductCatalogModal.jsx     # Spec Explorer Drawer
-│   │   │   └── ArchitectureModal.jsx       # System Architecture & State Machine
-│   │   ├── App.jsx                         # Main reactive interface
-│   │   └── index.css                       # Obsidian slate theme styling
+Verix/
+├── backend/
+│   ├── database/
+│   │   └── products.json          # 23+ hardware products with verified thermal & memory telemetry
+│   ├── engine/
+│   │   ├── verifier.py            # Adversarial double-check auditor & Groq/Wikipedia live engine
+│   │   └── scenarios.py           # Pre-packaged benchmark scenarios
+│   ├── main.py                    # FastAPI application server (Port 8003)
+│   └── test_api.py                # Automated backend test suite
+├── frontend/
+│   ├── src/
+│   │   ├── components/            # Reusable UI widgets & gauges
+│   │   ├── App.jsx                # Unified multi-view app (Landing, QC Dashboard, Socratic Lab)
+│   │   └── index.css              # Custom styling & Dark/Light mode theme engine
 │   ├── index.html
 │   ├── vite.config.js
 │   └── package.json
-├── HACKATHON_REPORT.md            # Complete hackathon project report
+├── .env.example                   # Environment configuration template
+├── .gitignore                     # Git exclusions (no secrets, no node_modules)
+├── HACKATHON_REPORT.md            # Detailed architecture and engineering report
 ├── README.md                      # Project documentation
-├── run_backend.bat                # Start backend
-├── run_frontend.bat               # Start frontend
-└── start_all.bat                  # One-click start all services
+├── run_backend.bat                # Windows script to run backend
+├── run_frontend.bat               # Windows script to run frontend
+└── start_all.bat                  # One-click dual launcher
 ```
+
+---
+
+## 🧪 Testing
+
+Run the automated test suite:
+```bash
+cd backend
+python test_api.py
+```
+
+---
+
+## 📄 License
+MIT License. Created by [Ananya Agrawal](https://github.com/ananyaagrawal-18).
