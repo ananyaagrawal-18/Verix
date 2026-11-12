@@ -1,0 +1,10 @@
+{
+  "name": "verix-ai",
+  "version": "2.0.0",
+  "private": true,
+  "description": "RECHECK-X (Veritas AI) Decision Intelligence Platform",
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run dev"
+  }
+}
