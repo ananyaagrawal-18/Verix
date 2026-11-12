@@ -4,7 +4,7 @@
   "private": true,
   "description": "RECHECK-X (Veritas AI) Decision Intelligence Platform",
   "scripts": {
-    "build": "npm --prefix frontend run build",
-    "start": "npm --prefix frontend run dev"
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd frontend && npm run dev"
   }
 }
